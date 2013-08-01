@@ -4,27 +4,6 @@
 	<meta charset="utf-8">
 	<title>Prueba de Julio</title>
 	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.2.css" />
-	<script type="text/javascript" src="js/jquery.mobile-1.3.2.js"></script>
-	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
-	<script type="text/javascript">
-		jQuery(document).on("pageinit", function() {
-			var nextId = 1;
-			
-			jQuery("#add").click(function() {
-				nextId++;
-				var content = "<div data-role='collapsible' id='set" + nextId + "'><h3>Section " + nextId + "</h3><p>I am the collapsible content in a set so this feels like an accordion. I am hidden by default because I have the 'collapsed' state; you need to expand the header to see me.</p></div>";
-				jQuery("#set").append( content ).collapsibleset('refresh');
-			});
-			
-			jQuery("#expand").click(function() {
-				jQuery("#set").children(":last").trigger( "expand" );
-			});
-			
-			jQuery("#collapse").click(function() {
-				jQuery("#set").children(":last").trigger( "collapse" );
-			});
-		});
-	</script>
 </head>
 
 <body>
