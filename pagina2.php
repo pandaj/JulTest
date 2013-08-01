@@ -5,22 +5,23 @@
 	<title>Prueba de Julio</title>
 	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.3.2.css" />
 	<script type="text/javascript" src="js/jquery.mobile-1.3.2.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
 	<script type="text/javascript">
-		$(document).on("pageinit", function() {
+		jQuery(document).on("pageinit", function() {
 			var nextId = 1;
 			
-			$("#add").click(function() {
+			jQuery("#add").click(function() {
 				nextId++;
 				var content = "<div data-role='collapsible' id='set" + nextId + "'><h3>Section " + nextId + "</h3><p>I am the collapsible content in a set so this feels like an accordion. I am hidden by default because I have the 'collapsed' state; you need to expand the header to see me.</p></div>";
-				$("#set").append( content ).collapsibleset('refresh');
+				jQuery("#set").append( content ).collapsibleset('refresh');
 			});
 			
-			$("#expand").click(function() {
-				$("#set").children(":last").trigger( "expand" );
+			jQuery("#expand").click(function() {
+				jQuery("#set").children(":last").trigger( "expand" );
 			});
 			
-			$("#collapse").click(function() {
-				$("#set").children(":last").trigger( "collapse" );
+			jQuery("#collapse").click(function() {
+				jQuery("#set").children(":last").trigger( "collapse" );
 			});
 		});
 	</script>
@@ -35,7 +36,7 @@
 	<div data-role="collapsible-set" data-content-theme="d" id="set">
 		<div data-role="collapsible" id="set1" data-collapsed="true">
 			<h3>Section 1</h3>
-				<p>I'm the collapsible content.</p>
+			<p>I'm the collapsible content.</p>
 		</div>
 	</div>
 </body>
