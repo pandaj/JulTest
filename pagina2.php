@@ -28,12 +28,7 @@
 
 <body>
 	Hola :D
-	<div id="waka1" style="background-color:#090; padding:10px 20px;">
-		Soy un boton :D
-	</div>
-	<div id="waka2" style="background-color:#990; padding:10px 20px;">
-		Yo tambien soy un boton :P
-	</div>
+	<?php include 'pagina1.php'; ?>
     <button type="button" data-icon="gear" data-theme="b" data-iconpos="right" data-mini="true" data-inline="true" id="add">Add</button>
 	<button type="button" data-icon="plus" data-theme="b" data-iconpos="right" data-mini="true" data-inline="true" id="expand">Expand last</button>
 	<button type="button" data-icon="minus" data-theme="b" data-iconpos="right" data-mini="true" data-inline="true" id="collapse">Collapse last</button>
