@@ -8,7 +8,13 @@
 
 <body>
 	Hola :D
-	<?php include 'pagina1.php'; ?>
+	<?php echo 'wakadhrt hrthrth'; ?>
+	<?php 
+	function wakaloso($waka) {
+		return substr($waka, 0, 10);
+	}
+	echo wakaloso('malakatoso');
+	?>
     <button type="button" data-icon="gear" data-theme="b" data-iconpos="right" data-mini="true" data-inline="true" id="add">Add</button>
 	<button type="button" data-icon="plus" data-theme="b" data-iconpos="right" data-mini="true" data-inline="true" id="expand">Expand last</button>
 	<button type="button" data-icon="minus" data-theme="b" data-iconpos="right" data-mini="true" data-inline="true" id="collapse">Collapse last</button>
