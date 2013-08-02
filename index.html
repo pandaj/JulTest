@@ -10,14 +10,17 @@
 	<script type="text/javascript" src="js/jquery.mobile-1.2.0.min.js"></script>
 	<script charset="utf-8" type="text/javascript" src="js/cordova-2.1.0.js"></script>
 
-	<script charset="utf-8" type="text/javascript" src="main.js"></script>
+	<!--<script charset="utf-8" type="text/javascript" src="main.js"></script>-->
 	<!--<script type="text/javascript" src="js/bdLocal.js"></script>-->
 	<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			jQuery('body').append('sdfsdfsd');
+		});
 		function mueve(objeto){
-			$(objeto).css({'margin-left':'100px'});
+			jQuery(objeto).css({'margin-left':'100px'});
 		}
 		function esconde(objeto){
-			$(objeto).hide();
+			jQuery(objeto).hide();
 		}
 	</script>
 </head>
