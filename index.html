@@ -11,7 +11,15 @@
 	<script charset="utf-8" type="text/javascript" src="js/cordova-2.1.0.js"></script>
 
 	<script charset="utf-8" type="text/javascript" src="main.js"></script>
-	<script type="text/javascript" src="js/bdLocal.js"></script>
+	<!--<script type="text/javascript" src="js/bdLocal.js"></script>-->
+	<script type="text/javascript">
+		function mueve(objeto){
+			$(objeto).css({'margin-left':'100px'});
+		}
+		function esconde(objeto){
+			$(objeto).hide();
+		}
+	</script>
 </head>
 
 <body bgcolor="#FFCC33">
@@ -21,11 +29,14 @@
 	<a href="#" onclick="retrasar();">Retrasar</a>
 	<a href="#" onclick="apurar();">Apurar</a>
 	<br><br>
-    <a onclick="Agregar(1)">Agregar</a>
+    <!--<a onclick="Agregar(1)">Agregar</a>-->
+	<a href="#" onclick="mueve('#waka');">Mueve</a>
 	<br><br>
-	<a class="ui-link-inherit" onclick="Mostrar(1)" href="#Eliminar">Borrar Elemento</a>
+	<!--<a class="ui-link-inherit" onclick="Mostrar(1)" href="#Eliminar">Borrar Elemento</a>-->
+	<a href="#" onclick="esconde('#waka');">Esconde</a>
 	<br><br>
-	<ul id="ListaEliminar" class="ui-listview ui-listview-inset ui-corner-all ui-shadow"></ul>
+	<!--<ul id="ListaEliminar" class="ui-listview ui-listview-inset ui-corner-all ui-shadow"></ul>-->
+	<div id="waka" style="float:left; background-color:#093; padding:40px 20px;">Wakatelas</div>
 	<br><br>
 	<a href="pagina2.html">[ IR A OTRA PAGINA ]</a>
 </head>
