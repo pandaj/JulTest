@@ -1,3 +1,17 @@
 @charset "utf-8";
 
+body { margin:0; padding:0; background-color:#000; }
+* { margin:0; padding:0; border:0; }
 
+
+/******  SELECCION DE PERSONAJES  *****/
+
+
+#select-char { width:100%; }
+.char-face { float:left; }
+.char-boton { display:block; width:80px; height:375px; }
+.char-boton { color:#FFF; text-align:center; text-decoration:none; }
+.char-boton p { padding:5px 5px; }
+.char-boton:hover { text-decoration:underline; }
+
+#ficha-char { width:100%; display:block; background-color:#000; }
