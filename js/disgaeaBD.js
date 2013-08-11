@@ -47,19 +47,37 @@ demiHumans[13] = new Object();
 demiHumans[13].nombre = 'Mage';
 
 demiHumans[14] = new Object();
-demiHumans[14].nombre = '';
+demiHumans[14].nombre = 'Magic_Knight';
 
 demiHumans[15] = new Object();
-demiHumans[15].nombre = '';
+demiHumans[15].nombre = 'Majin';
 
 demiHumans[16] = new Object();
-demiHumans[16].nombre = '';
+demiHumans[16].nombre = 'Male_Brawler';
 
 demiHumans[17] = new Object();
-demiHumans[17].nombre = '';
+demiHumans[17].nombre = 'Male_Fighter';
 
 demiHumans[18] = new Object();
-demiHumans[18].nombre = '';
+demiHumans[18].nombre = 'Male_Healer';
 
 demiHumans[19] = new Object();
-demiHumans[19].nombre = '';
+demiHumans[19].nombre = 'Male_Samurai';
+
+demiHumans[20] = new Object();
+demiHumans[20].nombre = 'Masked_Hero';
+
+demiHumans[21] = new Object();
+demiHumans[21].nombre = 'Ninja';
+
+demiHumans[22] = new Object();
+demiHumans[22].nombre = 'Ranger';
+
+demiHumans[23] = new Object();
+demiHumans[23].nombre = 'Shaman';
+
+demiHumans[24] = new Object();
+demiHumans[24].nombre = 'Skull';
+
+demiHumans[25] = new Object();
+demiHumans[25].nombre = 'Thief';
