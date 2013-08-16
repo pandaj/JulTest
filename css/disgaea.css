@@ -17,7 +17,7 @@ body { margin:0; padding:0; background-color:#000; }
 
 /******  FICHA PERSONAJES  *****/
 
-#ficha-char { width:100%; display:block; background-color:#000; position:absolute; color:#FFF; opacity:0.9; }
+#ficha-char { width:100%; background-color:#000; position:absolute; color:#FFF; opacity:0; /*display:block;*/ display:none; }
 
 #ficha-titulo { margin-top:20px; }
 #ficha-titulo h1 { display:inline; }
