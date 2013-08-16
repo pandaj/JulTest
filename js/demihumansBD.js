@@ -1,4 +1,3 @@
-// JavaScript Document
 
 
 /*----- DEMI-HUMANS -----*/
@@ -51,11 +50,15 @@ demiHumans[4].unSkills[0] = 'Auto-Recovery';
 demiHumans[4].unSkills[1] = 'Absolute Combo';
 demiHumans[4].evilities = new Array();
 demiHumans[4].evilities[0] = 'Heal Gain';
-demiHumans[4].unEvilities = new Array();
-demiHumans[4].unEvilities[0] = 'Feint';
-demiHumans[4].unEvilities[1] = 'Impromptu';
-demiHumans[4].unEvilities[2] = 'Counter Chance';
-demiHumans[4].unEvilities[3] = 'Hurt Me, Kill You';
+demiHumans[4].unEvility = new Array();
+demiHumans[4].unEvility[0] = new Object();
+demiHumans[4].unEvility[0].nombre = 'Feint';
+demiHumans[4].unEvility[1] = new Object();
+demiHumans[4].unEvility[1].nombre = 'Impromptu';
+demiHumans[4].unEvility[2] = new Object();
+demiHumans[4].unEvility[2].nombre = 'Counter Chance';
+demiHumans[4].unEvility[3] = new Object();
+demiHumans[4].unEvility[3].nombre = 'Hurt Me, Kill You';
 
 demiHumans[5] = new Object();
 demiHumans[5].nombre = 'Female_Fighter';
@@ -122,78 +125,3 @@ demiHumans[25].nombre = 'Thief';
 
 demiHumans[26] = new Object();
 demiHumans[26].nombre = 'Angel';
-
-
-/*----- MONSTER -----*/
-
-
-var monsters = new Array();
-
-monsters[0] = new Object();
-monsters[0].nombre = 'Alraune';
-
-monsters[1] = new Object();
-monsters[1].nombre = 'Catsaber';
-
-monsters[2] = new Object();
-monsters[2].nombre = 'Cockatrice';
-
-monsters[3] = new Object();
-monsters[3].nombre = 'Dragon_Zombie';
-
-monsters[4] = new Object();
-monsters[4].nombre = 'Eryngi';
-
-monsters[5] = new Object();
-monsters[5].nombre = 'Ghost';
-
-monsters[6] = new Object();
-monsters[6].nombre = 'Holy_Dragon';
-
-monsters[7] = new Object();
-monsters[7].nombre = 'Ifrit';
-
-monsters[8] = new Object();
-monsters[8].nombre = 'Marionette';
-
-monsters[9] = new Object();
-monsters[9].nombre = 'Mothman';
-
-monsters[10] = new Object();
-monsters[10].nombre = 'Mystic_Beast';
-
-monsters[11] = new Object();
-monsters[11].nombre = 'Orc';
-
-monsters[12] = new Object();
-monsters[12].nombre = 'Prinny';
-
-monsters[13] = new Object();
-monsters[13].nombre = 'Reaper';
-
-monsters[14] = new Object();
-monsters[14].nombre = 'Rifle_Demon';
-
-monsters[15] = new Object();
-monsters[15].nombre = 'Slime';
-
-monsters[16] = new Object();
-monsters[16].nombre = 'Succubus';
-
-monsters[17] = new Object();
-monsters[17].nombre = 'Warslug';
-
-monsters[18] = new Object();
-monsters[18].nombre = 'Wood_Golem';
-
-monsters[19] = new Object();
-monsters[19].nombre = 'Zombie';
-
-monsters[20] = new Object();
-monsters[20].nombre = 'Nekomata';
-
-monsters[21] = new Object();
-monsters[21].nombre = 'Prism_Ranger';
-
-monsters[22] = new Object();
-monsters[22].nombre = 'Dragon';

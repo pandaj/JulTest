@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 body { margin:0; padding:0; background-color:#000; }
-* { margin:0; padding:0; border:0; }
+* { margin:0; padding:0; border:0; vertical-align:baseline; }
 
 
 /******  SELECCION DE PERSONAJES  *****/
@@ -18,5 +18,18 @@ body { margin:0; padding:0; background-color:#000; }
 /******  FICHA PERSONAJES  *****/
 
 #ficha-char { width:100%; display:block; background-color:#000; position:absolute; color:#FFF; opacity:0.9; }
-#ficha-titulo { margin:0; }
-#ficha-clases-clase { margin:0; }
+
+#ficha-titulo { margin-top:20px; }
+#ficha-titulo h1 { display:inline; }
+#ficha-titulo a { color:#FFF; padding-left:15px; }
+
+.ficha-clases { margin-top:20px; }
+.ficha-clase p { display:inline; }
+
+.ficha-armas { margin-top:20px; }
+
+.ficha-skills, .ficha-unskills { margin-top:20px; }
+.ficha-skill { margin-top:20px; }
+
+.ficha-evilities, .ficha-unevilities { margin-top:20px; }
+.ficha-evility { margin-top:20px; }
