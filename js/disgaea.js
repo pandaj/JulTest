@@ -13,7 +13,7 @@ window.onload = function(){
 				'</a>' + 
 			'</div>'
 		);
-		//botonChar(d, demiHumans);
+		botonChar(d, demiHumans);
 	}
 	for (var m = 0; m < monsters.length; m++) {
 		var nombreM = monsters[m].nombre.split("_");
@@ -32,6 +32,19 @@ window.onload = function(){
 }
 
 function botonChar(num, lista) {
+	/*
+	$('#' + lista[num].nombre + ' a img').css({opacity:0.5});
+	$('#' + lista[num].nombre + ' a').hover(
+		function(){
+			$('#' + lista[num].nombre + ' a img').stop().animate({opacity:1}, 400);
+		},
+		function(){
+			$('#' + lista[num].nombre + ' a img').stop().animate({opacity:0.5}, 400);
+		}
+	);
+	*/
+	
+	
 	$('#' + lista[num].nombre + ' a').click(function(){
 		var fichaNombre = lista[num].nombre.split("_");
 		fichaNombre = fichaNombre.join(" ");
@@ -58,7 +71,18 @@ function botonChar(num, lista) {
 			}
 		}
 		
-		
+		if (lista == monsters) {
+			$('#ficha-char').html(
+			'<div id="ficha-titulo">' + 
+				'<h1>' + fichaNombre + '</h1>' + 
+				'<a id="ficha-volver" href="#">[ volver ]</a>' + 
+			'</div>' + 
+			'<div class="ficha-clases">' + 
+				'<h2>CLASES: </h2>' + fichaClases + 
+			'</div>');
+		}
+		else {
+			
 		$('#ficha-char').html(
 			'<div id="ficha-titulo">' + 
 				'<h1>' + fichaNombre + '</h1>' + 
@@ -184,6 +208,8 @@ function botonChar(num, lista) {
 					<p><b>Aasdas asdasda sdasd</b></p>
 				</div>
 			</div>'); */
+		}
+		
 		$('#ficha-char').show();
 		$('#ficha-char').animate({opacity:0.9},500);
 		$('#ficha-volver').click(function() {
