@@ -48,7 +48,8 @@ function botonChar(num, lista) {
 	$('#' + lista[num].nombre + ' a').click(function(){
 		var fichaNombre = lista[num].nombre.split("_");
 		fichaNombre = fichaNombre.join(" ");
-		
+
+/*----- CLASES -----*/
 		var fichaClases = '';
 		var claseNombre = '';
 		
@@ -70,19 +71,87 @@ function botonChar(num, lista) {
 					'</div>';
 			}
 		}
-		
-		if (lista == monsters) {
-			$('#ficha-char').html(
-			'<div id="ficha-titulo">' + 
-				'<h1>' + fichaNombre + '</h1>' + 
-				'<a id="ficha-volver" href="#">[ volver ]</a>' + 
-			'</div>' + 
-			'<div class="ficha-clases">' + 
-				'<h2>CLASES: </h2>' + fichaClases + 
-			'</div>');
+
+
+/*----- SKILLS -----*/
+
+
+		var fichaSkills = '';		
+		for (var s = 0; s < lista[num].skills.length; s++) {
+			fichaSkills = fichaSkills + 
+				'<div class="ficha-skill">' + 
+					'<h3>' + lista[num].skills[s] + '</h3>' + 
+					'<table width="100%" border="0" cellspacing="0" cellpadding="0">' + 
+						'<tr><td width="80">Daño</td><td>C</td></tr>' + 
+						'<tr><td>Atributo</td><td>ATK</td></tr>' + 
+						'<tr><td>Elemento</td><td>Fuego</td></tr>' + 
+						'<tr><td>Altura</td><td>20/20</td></tr>' + 
+						'<tr><td>Rango</td><td>[ imagen ]</td></tr>' + 
+						'<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>' + 
+					'</table>' + 
+				'</div>';
 		}
-		else {
-			
+
+
+/*----- SKILLS -----*/
+
+
+		var fichaSkills = '';		
+		for (var s = 0; s < lista[num].skills.length; s++) {
+			fichaSkills = fichaSkills + 
+				'<div class="ficha-skill">' + 
+					'<h3>' + lista[num].skills[s] + '</h3>' + 
+					'<table width="100%" border="0" cellspacing="0" cellpadding="0">' + 
+						'<tr><td width="80">Daño</td><td>C</td></tr>' + 
+						'<tr><td>Atributo</td><td>ATK</td></tr>' + 
+						'<tr><td>Elemento</td><td>Fuego</td></tr>' + 
+						'<tr><td>Altura</td><td>20/20</td></tr>' + 
+						'<tr><td>Rango</td><td>[ imagen ]</td></tr>' + 
+						'<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>' + 
+					'</table>' + 
+				'</div>';
+		}
+
+
+/*----- EVILITIES -----*/
+
+
+		var fichaEvility = '';		
+		for (var s = 0; s < lista[num].evility.length; s++) {
+			fichaEvility = fichaEvility + 
+				'<div class="ficha-skill">' + 
+					'<h3>' + lista[num].skills[s] + '</h3>' + 
+					'<table width="100%" border="0" cellspacing="0" cellpadding="0">' + 
+						'<tr><td width="80">Daño</td><td>C</td></tr>' + 
+						'<tr><td>Atributo</td><td>ATK</td></tr>' + 
+						'<tr><td>Elemento</td><td>Fuego</td></tr>' + 
+						'<tr><td>Altura</td><td>20/20</td></tr>' + 
+						'<tr><td>Rango</td><td>[ imagen ]</td></tr>' + 
+						'<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>' + 
+					'</table>' + 
+				'</div>';
+		}
+
+		
+/*----- UNIQUE EVILITIES -----*/
+
+
+		var fichaUnEvility = '';
+		for (var s = 0; s < lista[num].evility.length; s++) {
+			fichaUnEvility = fichaUnEvility + 
+				'<div class="ficha-skill">' + 
+					'<h3>' + lista[num].skills[s] + '</h3>' + 
+					'<table width="100%" border="0" cellspacing="0" cellpadding="0">' + 
+						'<tr><td width="80">Daño</td><td>C</td></tr>' + 
+						'<tr><td>Atributo</td><td>ATK</td></tr>' + 
+						'<tr><td>Elemento</td><td>Fuego</td></tr>' + 
+						'<tr><td>Altura</td><td>20/20</td></tr>' + 
+						'<tr><td>Rango</td><td>[ imagen ]</td></tr>' + 
+						'<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>' + 
+					'</table>' + 
+				'</div>';
+		}
+		
 		$('#ficha-char').html(
 			'<div id="ficha-titulo">' + 
 				'<h1>' + fichaNombre + '</h1>' + 
@@ -90,125 +159,20 @@ function botonChar(num, lista) {
 			'</div>' + 
 			'<div class="ficha-clases">' + 
 				'<h2>CLASES: </h2>' + fichaClases + 
-			'</div>'); /* + 
-			<div class="ficha-armas">
-				<h2>ARMAS: </h2>
-				<div class="ficha-arma">
-					<b>Nudillos</b> : Max Nv 6
-				</div>
-				<div class="ficha-arma">
-					<b>Espada</b> : Max Nv 4
-				</div>
-			</div>
-			<div class="ficha-skills">
-				<h2>SKILLS: </h2>
-				<div class="ficha-skill">
-					<h3>Triple Strike</h3>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr><td width="80">Daño</td><td>C</td></tr>
-						<tr><td>Atributo</td><td>ATK</td></tr>
-						<tr><td>Elemento</td><td>Fuego</td></tr>
-						<tr><td>Altura</td><td>20/20</td></tr>
-						<tr><td>Rango</td><td>[ imagen ]</td></tr>
-						<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>
-					</table>
-				</div>
-				<div class="ficha-skill">
-					<h3>Triple Strike</h3>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr><td width="80">Daño</td><td>C</td></tr>
-						<tr><td>Atributo</td><td>ATK</td></tr>
-						<tr><td>Elemento</td><td>Fuego</td></tr>
-						<tr><td>Altura</td><td>20/20</td></tr>
-						<tr><td>Rango</td><td>[ imagen ]</td></tr>
-						<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>
-					</table>
-				</div>
-				<div class="ficha-skill">
-					<h3>Triple Strike</h3>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr><td width="80">Daño</td><td>C</td></tr>
-						<tr><td>Atributo</td><td>ATK</td></tr>
-						<tr><td>Elemento</td><td>Fuego</td></tr>
-						<tr><td>Altura</td><td>20/20</td></tr>
-						<tr><td>Rango</td><td>[ imagen ]</td></tr>
-						<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>
-					</table>
-				</div>
-			</div>
-			<div class="ficha-unskills">
-				<h2>SKILLS UNICAS: </h2>
-				<div class="ficha-skill">
-					<h3>Triple Strike</h3>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr><td width="80">Daño</td><td>C</td></tr>
-						<tr><td>Atributo</td><td>ATK</td></tr>
-						<tr><td>Elemento</td><td>Fuego</td></tr>
-						<tr><td>Altura</td><td>20/20</td></tr>
-						<tr><td>Rango</td><td>[ imagen ]</td></tr>
-						<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>
-					</table>
-				</div>
-				<div class="ficha-skill">
-					<h3>Triple Strike</h3>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr><td width="80">Daño</td><td>C</td></tr>
-						<tr><td>Atributo</td><td>ATK</td></tr>
-						<tr><td>Elemento</td><td>Fuego</td></tr>
-						<tr><td>Altura</td><td>20/20</td></tr>
-						<tr><td>Rango</td><td>[ imagen ]</td></tr>
-						<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>
-					</table>
-				</div>
-				<div class="ficha-skill">
-					<h3>Triple Strike</h3>
-					<table width="100%" border="0" cellspacing="0" cellpadding="0">
-						<tr><td width="80">Daño</td><td>C</td></tr>
-						<tr><td>Atributo</td><td>ATK</td></tr>
-						<tr><td>Elemento</td><td>Fuego</td></tr>
-						<tr><td>Altura</td><td>20/20</td></tr>
-						<tr><td>Rango</td><td>[ imagen ]</td></tr>
-						<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>
-					</table>
-				</div>
-			</div>
-			<div class="ficha-evilities">
-				<h2>EVILITIES: </h2>
-				<div class="ficha-evility">
-					<h3>Triple Strike</h3>
-					<p>Aasdas asdasda sdasd</p>
-					<p><b>Aasdas asdasda sdasd</b></p>
-				</div>
-				<div class="ficha-evility">
-					<h3>Triple Strike</h3>
-					<p>Aasdas asdasda sdasd</p>
-					<p><b>Aasdas asdasda sdasd</b></p>
-				</div>
-				<div class="ficha-evility">
-					<h3>Triple Strike</h3>
-					<p>Aasdas asdasda sdasd</p>
-					<p><b>Aasdas asdasda sdasd</b></p>
-				</div>
-			</div>
-			<div class="ficha-unevilities">
-				<h2>EVILITIES UNICAS: </h2>
-				<div class="ficha-evility">
-					<h3>Triple Strike</h3>
-					<p>Aasdas asdasda sdasd</p>
-					<p><b>Aasdas asdasda sdasd</b></p>
-				</div>
-				<div class="ficha-evility">
-					<h3>Triple Strike</h3>
-					<p>Aasdas asdasda sdasd</p>
-					<p><b>Aasdas asdasda sdasd</b></p>
-				</div>
-				<div class="ficha-evility">
-					<h3>Triple Strike</h3>
-					<p>Aasdas asdasda sdasd</p>
-					<p><b>Aasdas asdasda sdasd</b></p>
-				</div>
-			</div>'); */
-		}
+			'</div>' + 
+			'<div class="ficha-skills">' + 
+				'<h2>SKILLS: </h2>' + fichaSkills + 
+			'</div>' + 
+			'<div class="ficha-unskills">' + 
+				'<h2>SKILLS UNICAS: </h2>' + fichaUnSkills + 
+			'</div>' + 
+			'<div class="ficha-evilities">' + 
+				'<h2>EVILITIES UNICAS: </h2>' + fichaEvility + 
+			'</div>' + 
+			'<div class="ficha-unevilities">' + 
+				'<h2>EVILITIES UNICAS: </h2>' + fichaUnEvility + 
+			'</div>'
+		);
 		
 		$('#ficha-char').show();
 		$('#ficha-char').animate({opacity:0.9},500);
