@@ -93,21 +93,21 @@ function botonChar(num, lista) {
 		}
 
 
-/*----- SKILLS -----*/
+/*----- UNIQUE SKILLS -----*/
 
 
-		var fichaSkills = '';		
-		for (var s = 0; s < lista[num].skills.length; s++) {
-			fichaSkills = fichaSkills + 
+		var fichaUnSkills = '';		
+		for (var us = 0; us < lista[num].unskills.length; us++) {
+			fichaUnSkills = fichaSkills + 
 				'<div class="ficha-skill">' + 
-					'<h3>' + lista[num].skills[s] + '</h3>' + 
+					'<h3>' + lista[num].unskills[us].nombre + '</h3>' + 
 					'<table width="100%" border="0" cellspacing="0" cellpadding="0">' + 
-						'<tr><td width="80">Daño</td><td>C</td></tr>' + 
-						'<tr><td>Atributo</td><td>ATK</td></tr>' + 
-						'<tr><td>Elemento</td><td>Fuego</td></tr>' + 
-						'<tr><td>Altura</td><td>20/20</td></tr>' + 
-						'<tr><td>Rango</td><td>[ imagen ]</td></tr>' + 
-						'<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>' + 
+						'<tr><td width="80">Daño</td><td>' + lista[num].unskills[us].poder + '</td></tr>' + 
+						'<tr><td>Atributo</td><td>' + lista[num].unskills[us].atrib + '</td></tr>' + 
+						'<tr><td>Elemento</td><td>' + lista[num].unskills[us].elem + '</td></tr>' + 
+						'<tr><td>Altura</td><td>' + lista[num].unskills[us].alto + '</td></tr>' + 
+						'<tr><td>Rango</td><td>' + lista[num].unskills[us].rango + '</td></tr>' + 
+						'<tr><td>Info</td><td>' + lista[num].unskills[us].info + '</td></tr>' + 
 					'</table>' + 
 				'</div>';
 		}
@@ -120,15 +120,9 @@ function botonChar(num, lista) {
 		for (var s = 0; s < lista[num].evility.length; s++) {
 			fichaEvility = fichaEvility + 
 				'<div class="ficha-skill">' + 
-					'<h3>' + lista[num].skills[s] + '</h3>' + 
-					'<table width="100%" border="0" cellspacing="0" cellpadding="0">' + 
-						'<tr><td width="80">Daño</td><td>C</td></tr>' + 
-						'<tr><td>Atributo</td><td>ATK</td></tr>' + 
-						'<tr><td>Elemento</td><td>Fuego</td></tr>' + 
-						'<tr><td>Altura</td><td>20/20</td></tr>' + 
-						'<tr><td>Rango</td><td>[ imagen ]</td></tr>' + 
-						'<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>' + 
-					'</table>' + 
+					'<h3>' + lista[num].evility[s] + '</h3>' + 
+					'<p><b>Requiere Phantom Nv 30</b></p>' + 
+					'<p>Esta es una habilidad muy bakan xD</p>' + 
 				'</div>';
 		}
 
@@ -137,18 +131,12 @@ function botonChar(num, lista) {
 
 
 		var fichaUnEvility = '';
-		for (var s = 0; s < lista[num].evility.length; s++) {
+		for (var ue = 0; ue < lista[num].unevility.length; ue++) {
 			fichaUnEvility = fichaUnEvility + 
 				'<div class="ficha-skill">' + 
-					'<h3>' + lista[num].skills[s] + '</h3>' + 
-					'<table width="100%" border="0" cellspacing="0" cellpadding="0">' + 
-						'<tr><td width="80">Daño</td><td>C</td></tr>' + 
-						'<tr><td>Atributo</td><td>ATK</td></tr>' + 
-						'<tr><td>Elemento</td><td>Fuego</td></tr>' + 
-						'<tr><td>Altura</td><td>20/20</td></tr>' + 
-						'<tr><td>Rango</td><td>[ imagen ]</td></tr>' + 
-						'<tr><td>Info</td><td>Puede quemar a los enemigos</td></tr>' + 
-					'</table>' + 
+					'<h3>' + lista[num].unevility[ue].nombre + '</h3>' + 
+					'<p><b>' + lista[num].unevility[ue].requiere + '</b></p>' + 
+					'<p>' + lista[num].unevility[ue].info + '</p>' + 
 				'</div>';
 		}
 		
@@ -167,7 +155,7 @@ function botonChar(num, lista) {
 				'<h2>SKILLS UNICAS: </h2>' + fichaUnSkills + 
 			'</div>' + 
 			'<div class="ficha-evilities">' + 
-				'<h2>EVILITIES UNICAS: </h2>' + fichaEvility + 
+				'<h2>EVILITIES: </h2>' + fichaEvility + 
 			'</div>' + 
 			'<div class="ficha-unevilities">' + 
 				'<h2>EVILITIES UNICAS: </h2>' + fichaUnEvility + 
