@@ -1534,47 +1534,36 @@ demiHumans[20].unevility[3].nombre = "Chicken Heart";
 demiHumans[20].unevility[3].info = "Reduce todos sus atributos en un 30%, pero aumenta sus Movimientos en 3.";
 demiHumans[20].unevility[3].requiere = "Super Dimensionman Nv 800";
 
-/*MALE NINJA
-To unlock, the player must pass the "Make a Male Ninja " bill in the Classroom Assembly which requires a Level 30 Male Brawler and a Level 30 Skull
-
-Genin	 Pass the "Make a Male Ninja " bill
-D3 Ninja 02
-Chunin	 Level 35 Genin
-D3 Ninja 03
-Jounin	 Level 80 Chunin
-D3 Ninja 04
-Oniwaban	 Level 160 Jounin
-D3 Ninja 05
-Touryou	 Level 320 Oniwaban
-D3 Ninja 06
-Shadow Master	 Level 640 Touryou
-
-Misty Haze	 50% chance to evade attacks from front.	 Initial
-Sharp Eye	 Critical chance increased by 20%.	 Tier 2 Lv30
-Vision Blur	 Damage is nulled when Nicked.	 Tier 4 Lv150
-Killing Hand	 30% of base SPD added to HIT when fist is equipped.	 Tier 6 Lv800
+/*MALE NINJA*/
+/*
+Move: 5
+Jump: 35
+Range: 1
+Throw: 4
+Counter: 1
+Critical: 5%
 */
 demiHumans[21] = new Object();
 demiHumans[21].nombre = "Ninja";
 demiHumans[21].clases = new Array();
 demiHumans[21].clases[0] = new Object();
-demiHumans[21].clases[0].nombre = "";
-demiHumans[21].clases[0].requiere = '';
+demiHumans[21].clases[0].nombre = "Genin";
+demiHumans[21].clases[0].requiere = 'Male Brawler y Skull en Nv 30, y aprobar "Make a Male Ninja"';
 demiHumans[21].clases[1] = new Object();
-demiHumans[21].clases[1].nombre = "";
-demiHumans[21].clases[1].requiere = "";
+demiHumans[21].clases[1].nombre = "Chunin";
+demiHumans[21].clases[1].requiere = "Genin Nv 35";
 demiHumans[21].clases[2] = new Object();
-demiHumans[21].clases[2].nombre = "";
-demiHumans[21].clases[2].requiere = "";
+demiHumans[21].clases[2].nombre = "Jounin";
+demiHumans[21].clases[2].requiere = "Chunin Nv 80";
 demiHumans[21].clases[3] = new Object();
-demiHumans[21].clases[3].nombre = "";
-demiHumans[21].clases[3].requiere = "";
+demiHumans[21].clases[3].nombre = "Oniwaban";
+demiHumans[21].clases[3].requiere = "Jounin Nv 160";
 demiHumans[21].clases[4] = new Object();
-demiHumans[21].clases[4].nombre = "";
-demiHumans[21].clases[4].requiere = "";
+demiHumans[21].clases[4].nombre = "Touryou";
+demiHumans[21].clases[4].requiere = "Oniwaban Nv 320";
 demiHumans[21].clases[5] = new Object();
-demiHumans[21].clases[5].nombre = "";
-demiHumans[21].clases[5].requiere = "";
+demiHumans[21].clases[5].nombre = "Shadow Master";
+demiHumans[21].clases[5].requiere = "Touryou Nv 640";
 demiHumans[21].skills = new Array();
 demiHumans[21].skills[0] = "Skill 1";
 demiHumans[21].skills[1] = "Skill 2";
@@ -1602,21 +1591,21 @@ demiHumans[21].evility[1] = "Evility 2";
 demiHumans[21].evility[2] = "Evility 3";
 demiHumans[21].unevility = new Array();
 demiHumans[21].unevility[0] = new Object();
-demiHumans[21].unevility[0].nombre = "";
-demiHumans[21].unevility[0].info = "";
+demiHumans[21].unevility[0].nombre = "Misty Haze";
+demiHumans[21].unevility[0].info = "Este personaje tiene 50% posibilidades de Evadir ataques desde el frente suyo.";
 demiHumans[21].unevility[0].requiere = "Inicial";
 demiHumans[21].unevility[1] = new Object();
-demiHumans[21].unevility[1].nombre = "";
-demiHumans[21].unevility[1].info = "";
-demiHumans[21].unevility[1].requiere = "";
+demiHumans[21].unevility[1].nombre = "Sharp Eye";
+demiHumans[21].unevility[1].info = "Aumenta las posibilidades de Golpe Critico en un 20%";
+demiHumans[21].unevility[1].requiere = "Chunin Nv 30";
 demiHumans[21].unevility[2] = new Object();
-demiHumans[21].unevility[2].nombre = "";
-demiHumans[21].unevility[2].info = "";
-demiHumans[21].unevility[2].requiere = "";
+demiHumans[21].unevility[2].nombre = "Vision Blur";
+demiHumans[21].unevility[2].info = "Anula el daño cuando es NICKED";
+demiHumans[21].unevility[2].requiere = "Oniwaban Nv 150";
 demiHumans[21].unevility[3] = new Object();
-demiHumans[21].unevility[3].nombre = "";
-demiHumans[21].unevility[3].info = "";
-demiHumans[21].unevility[3].requiere = "";
+demiHumans[21].unevility[3].nombre = "Killing Hand";
+demiHumans[21].unevility[3].info = "30% de su SPD base se añade a su HIT cuando su arma son unos Puños.";
+demiHumans[21].unevility[3].requiere = "Shadow Master Nv 800";
 
 /*MALE ARCHER*/
 /*
@@ -1846,8 +1835,10 @@ demiHumans[24].unevility[2].nombre = "Magic Conversion";
 demiHumans[24].unevility[2].info = "10% de su SP restante es añadida a su INT.";
 demiHumans[24].unevility[2].requiere = "Galaxy Skull Nv 500";
 
+/*THIEF*/
+/*
 
-
+*/
 demiHumans[25] = new Object();
 demiHumans[25].nombre = "Thief";
 demiHumans[25].clases = new Array();
