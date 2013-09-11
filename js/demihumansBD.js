@@ -5,6 +5,7 @@
 
 var demiHumans = new Array();
 
+/*FEMALE ARCHER*/
 /*
 Move: 5
 Jump: 25
@@ -77,6 +78,7 @@ demiHumans[0].unevility[3].nombre = "Bow Range";
 demiHumans[0].unevility[3].info = "Su rango de ataque aumenta en 1 panel cuando su arma es un Arco.";
 demiHumans[0].unevility[3].requiere = "Feischutz Nv 600";
 
+/*BEAST MASTER*/
 /*
 Move: 4
 Jump: 25
@@ -149,6 +151,7 @@ demiHumans[1].unevility[3].nombre = "M Weapon Master";
 demiHumans[1].unevility[3].info = "Sus Aptitudes aumentan un 20% cuando su arma es un arma de Magichange.";
 demiHumans[1].unevility[3].requiere = "Beast Savior Nv 600";
 
+/*BERSERKER*/
 /*
 Move: 4
 Jump: 20
@@ -221,6 +224,7 @@ demiHumans[2].unevility[3].nombre = "Fury Strike";
 demiHumans[2].unevility[3].info = "El daño de sus Golpes Criticos aumenta en un 100%, pero su HIT se reduce en un 30% cuando su arma es un Hacha.";
 demiHumans[2].unevility[3].requiere = "Genocider Nv 800";
 
+/*CHEERLEADER*/
 /*
 Move: 4
 Jump: 25
@@ -293,6 +297,7 @@ demiHumans[3].unevility[3].nombre = "Happy Song";
 demiHumans[3].unevility[3].info = "Aumenta la EXP que ganan los aliados en el mapa en un 20%.";
 demiHumans[3].unevility[3].requiere = "Idol Master Nv 800";
 
+/*FEMALE BRAWLER*/
 /*
 Move: 5
 Jump: 25
@@ -365,6 +370,7 @@ demiHumans[4].unevility[3].nombre = "Hurt Me, Kill You";
 demiHumans[4].unevility[3].info = "Sus ContraAtaques siempre golpean.";
 demiHumans[4].unevility[3].requiere = "God Buster Nv 500";
 
+/*FEMALE FIGHTER*/
 /*
 Move: 4
 Jump: 20
@@ -437,6 +443,7 @@ demiHumans[5].unevility[3].nombre = "Spear Sting";
 demiHumans[5].unevility[3].info = "30% de su HIT base es añadido a su ATK cuando su arma es una Lanza.";
 demiHumans[5].unevility[3].requiere = "Iron Maiden Nv 500";
 
+/*FEMALE HEALER*/
 /*
 Move: 4
 Jump: 20
@@ -509,6 +516,7 @@ demiHumans[6].unevility[3].nombre = "Heart's Fertility";
 demiHumans[6].unevility[3].info = "Aumenta en un 50% el mana obtenido de un enemigo cuando realiza un Golpe Letal.";
 demiHumans[6].unevility[3].requiere = "Saint ";
 
+/*FEMALE SAMURAI*/
 /*
 Move: 4
 Jump: 20
@@ -581,6 +589,7 @@ demiHumans[7].unevility[3].nombre = "Cleanse Evil";
 demiHumans[7].unevility[3].info = "Aumenta el daño que hace a los enemigos tipo Mounstro en un 25%.";
 demiHumans[7].unevility[3].requiere = "Blade Master Nv 800";
 
+/*GEOMANCER*/
 /*
 Move: 4
 Jump: 20
@@ -653,6 +662,7 @@ demiHumans[8].unevility[3].nombre = "Strange Force";
 demiHumans[8].unevility[3].info = "Sus atributos aumentan un 10% por cada Bonus Rank ganado durante la batalla.";
 demiHumans[8].unevility[3].requiere = "Geo Master Nv 600";
 
+/*MALE GUNNER*/
 /*
 Move: 5
 Jump: 25
@@ -725,6 +735,7 @@ demiHumans[9].unevility[3].nombre = "Gun Trick";
 demiHumans[9].unevility[3].info = "30% del HIT base es añadido a la SPD cuando su arma es una Pistola.";
 demiHumans[9].unevility[3].requiere = "Desperado Nv 600";
 
+/*FEMALE GUNNER*/
 /*
 Move: 5
 Jump: 25
@@ -797,6 +808,7 @@ demiHumans[10].unevility[3].nombre = "Long Shot";
 demiHumans[10].unevility[3].info = "Su Rango aumenta en 1 panel cuando su arma es una Pistola.";
 demiHumans[10].unevility[3].requiere = "Fortune Venus Nv 600";
 
+/*HEAVY KNIGHT*/
 /*
 Move: 3
 Jump: 15
@@ -869,6 +881,7 @@ demiHumans[11].unevility[3].nombre = "Spear Defense";
 demiHumans[11].unevility[3].info = "30% de su ATK base se agrega a su DEF cuando su arma es una Lanza.";
 demiHumans[11].unevility[3].requiere = "Aegis Knight Nv 600";
 
+/*FEMALE NINJA
 /*
 Move: 5
 Jump: 35
@@ -941,6 +954,7 @@ demiHumans[12].unevility[3].nombre = "Blade Dance";
 demiHumans[12].unevility[3].info = "30% de su ATK base es añadido a su SPD cuando su arma es una Espada.";
 demiHumans[12].unevility[3].requiere = "Master Kunoichi Nv 800";
 
+/*MAGE*/
 /*
 Move: 3
 Jump: 15
@@ -1009,6 +1023,7 @@ demiHumans[13].unevility[2].nombre = "Enlarge";
 demiHumans[13].unevility[2].info = "El rango de sus Skills tipo Magia aumenta en 1 panel.";
 demiHumans[13].unevility[2].requiere = "Galaxy Mage Nv 500";
 
+/*MAGIC KNIGHT*/
 /*
 Move: 4
 Jump: 20
@@ -1081,6 +1096,7 @@ demiHumans[14].unevility[3].nombre = "Sword Force";
 demiHumans[14].unevility[3].info = "30% de su ATK base es añadido a su INT cuando su arma es una Espada.";
 demiHumans[14].unevility[3].requiere = "Space Knight Nv 800";
 
+/*MAJIN*/
 /*
 Move: 3
 Jump: 20
@@ -1153,30 +1169,36 @@ demiHumans[15].unevility[3].nombre = "Violence";
 demiHumans[15].unevility[3].info = "Sus atributos aumentan en un 50%, pero al eliminar a un enemigo, solo recibe el 50% de la Experiencia.";
 demiHumans[15].unevility[3].requiere = "Omega Sentinel Nv 2500";
 
+/*MALE BRAWLER*/
 /*
-
+Move: 5
+Jump: 25
+Range: 1
+Throw: 5
+Counter: 3
+Critical: 5%
 */
 demiHumans[16] = new Object();
 demiHumans[16].nombre = "Male_Brawler";
 demiHumans[16].clases = new Array();
 demiHumans[16].clases[0] = new Object();
-demiHumans[16].clases[0].nombre = "";
-demiHumans[16].clases[0].requiere = '';
+demiHumans[16].clases[0].nombre = "Fury Fatalist";
+demiHumans[16].clases[0].requiere = 'Inicial.';
 demiHumans[16].clases[1] = new Object();
-demiHumans[16].clases[1].nombre = "";
-demiHumans[16].clases[1].requiere = "";
+demiHumans[16].clases[1].nombre = "Fight Artist";
+demiHumans[16].clases[1].requiere = "Fury Fatalist Nv 15";
 demiHumans[16].clases[2] = new Object();
-demiHumans[16].clases[2].nombre = "";
-demiHumans[16].clases[2].requiere = "";
+demiHumans[16].clases[2].nombre = "Champ of Fighters";
+demiHumans[16].clases[2].requiere = "Fight Artist Nv 40";
 demiHumans[16].clases[3] = new Object();
-demiHumans[16].clases[3].nombre = "";
-demiHumans[16].clases[3].requiere = "";
+demiHumans[16].clases[3].nombre = "Viper Fighter";
+demiHumans[16].clases[3].requiere = "Champ of Fighters Nv 80";
 demiHumans[16].clases[4] = new Object();
-demiHumans[16].clases[4].nombre = "";
-demiHumans[16].clases[4].requiere = "";
+demiHumans[16].clases[4].nombre = "Lethal Combatant";
+demiHumans[16].clases[4].requiere = "Viper Fighter Nv 160";
 demiHumans[16].clases[5] = new Object();
-demiHumans[16].clases[5].nombre = "";
-demiHumans[16].clases[5].requiere = "";
+demiHumans[16].clases[5].nombre = "Boulevard Fighter";
+demiHumans[16].clases[5].requiere = "Lethal Combatant Nv 360";
 demiHumans[16].skills = new Array();
 demiHumans[16].skills[0] = "Skill 1";
 demiHumans[16].skills[1] = "Skill 2";
@@ -1204,43 +1226,52 @@ demiHumans[16].evility[1] = "Evility 2";
 demiHumans[16].evility[2] = "Evility 3";
 demiHumans[16].unevility = new Array();
 demiHumans[16].unevility[0] = new Object();
-demiHumans[16].unevility[0].nombre = "";
-demiHumans[16].unevility[0].info = "";
+demiHumans[16].unevility[0].nombre = "Fury";
+demiHumans[16].unevility[0].info = "Durante el turno, aumenta el daño de sus ContraGolpes en un 25% por cada ContraGolpe hecho.";
 demiHumans[16].unevility[0].requiere = "Inicial";
 demiHumans[16].unevility[1] = new Object();
-demiHumans[16].unevility[1].nombre = "";
-demiHumans[16].unevility[1].info = "";
-demiHumans[16].unevility[1].requiere = "";
+demiHumans[16].unevility[1].nombre = "Retribution";
+demiHumans[16].unevility[1].info = "Aumenta en 2 su numero de ContraGolpes.";
+demiHumans[16].unevility[1].requiere = "Fight Artist Nv 20";
 demiHumans[16].unevility[2] = new Object();
-demiHumans[16].unevility[2].nombre = "";
-demiHumans[16].unevility[2].info = "";
-demiHumans[16].unevility[2].requiere = "";
+demiHumans[16].unevility[2].nombre = "Counter Power";
+demiHumans[16].unevility[2].info = "Aumenta en un 50% el daño hecho por sus ContraGolpes.";
+demiHumans[16].unevility[2].requiere = "Viper Fighter Nv 100";
 demiHumans[16].unevility[3] = new Object();
-demiHumans[16].unevility[3].nombre = "";
-demiHumans[16].unevility[3].info = "";
-demiHumans[16].unevility[3].requiere = "";
+demiHumans[16].unevility[3].nombre = "Chasing Fang";
+demiHumans[16].unevility[3].info = "Cuando su HP es menor al 25%, tiene 50% posibilidades de repetir sus ataques.";
+demiHumans[16].unevility[3].requiere = "Boulevard Fighter Nv 500";
 
+/*MALE FIGHTER*/
+/*
+Move: 4
+Jump: 20
+Range: 1
+Throw: 5
+Counter: 2
+Critical: 5%
+*/
 demiHumans[17] = new Object();
 demiHumans[17].nombre = "Male_Fighter";
 demiHumans[17].clases = new Array();
 demiHumans[17].clases[0] = new Object();
-demiHumans[17].clases[0].nombre = "";
-demiHumans[17].clases[0].requiere = '';
+demiHumans[17].clases[0].nombre = "Fighter";
+demiHumans[17].clases[0].requiere = 'Inicial';
 demiHumans[17].clases[1] = new Object();
-demiHumans[17].clases[1].nombre = "";
-demiHumans[17].clases[1].requiere = "";
+demiHumans[17].clases[1].nombre = "Warrior";
+demiHumans[17].clases[1].requiere = "Fighter Nv 15";
 demiHumans[17].clases[2] = new Object();
-demiHumans[17].clases[2].nombre = "";
-demiHumans[17].clases[2].requiere = "";
+demiHumans[17].clases[2].nombre = "Destroyer";
+demiHumans[17].clases[2].requiere = "Warrior Nv 40";
 demiHumans[17].clases[3] = new Object();
-demiHumans[17].clases[3].nombre = "";
-demiHumans[17].clases[3].requiere = "";
+demiHumans[17].clases[3].nombre = "Gladiator";
+demiHumans[17].clases[3].requiere = "Destroyer Nv 80";
 demiHumans[17].clases[4] = new Object();
-demiHumans[17].clases[4].nombre = "";
-demiHumans[17].clases[4].requiere = "";
+demiHumans[17].clases[4].nombre = "Warlord";
+demiHumans[17].clases[4].requiere = "Gladiator Nv 160";
 demiHumans[17].clases[5] = new Object();
-demiHumans[17].clases[5].nombre = "";
-demiHumans[17].clases[5].requiere = "";
+demiHumans[17].clases[5].nombre = "Battle Master";
+demiHumans[17].clases[5].requiere = "Warlord Nv 360";
 demiHumans[17].skills = new Array();
 demiHumans[17].skills[0] = "Skill 1";
 demiHumans[17].skills[1] = "Skill 2";
@@ -1268,43 +1299,52 @@ demiHumans[17].evility[1] = "Evility 2";
 demiHumans[17].evility[2] = "Evility 3";
 demiHumans[17].unevility = new Array();
 demiHumans[17].unevility[0] = new Object();
-demiHumans[17].unevility[0].nombre = "";
-demiHumans[17].unevility[0].info = "";
+demiHumans[17].unevility[0].nombre = "Wild Cry";
+demiHumans[17].unevility[0].info = "Aumenta sus atributos por cada unidad enemiga adyacente.";
 demiHumans[17].unevility[0].requiere = "Inicial";
 demiHumans[17].unevility[1] = new Object();
-demiHumans[17].unevility[1].nombre = "";
-demiHumans[17].unevility[1].info = "";
-demiHumans[17].unevility[1].requiere = "";
+demiHumans[17].unevility[1].nombre = "Armor Mastery";
+demiHumans[17].unevility[1].info = "Los bonos otorgados por equipos que aumentan el HP y la DEF aumenta en un 30%.";
+demiHumans[17].unevility[1].requiere = "Warrior Nv 20";
 demiHumans[17].unevility[2] = new Object();
-demiHumans[17].unevility[2].nombre = "";
-demiHumans[17].unevility[2].info = "";
-demiHumans[17].unevility[2].requiere = "";
+demiHumans[17].unevility[2].nombre = "Energy Slash";
+demiHumans[17].unevility[2].info = "10% de su SP restante se añade al ATK cuando su arma es una Espada.";
+demiHumans[17].unevility[2].requiere = "Gladiator Nv 100";
 demiHumans[17].unevility[3] = new Object();
-demiHumans[17].unevility[3].nombre = "";
-demiHumans[17].unevility[3].info = "";
-demiHumans[17].unevility[3].requiere = "";
+demiHumans[17].unevility[3].nombre = "Heavy Smash";
+demiHumans[17].unevility[3].info = "30% de la DEF base es añadida a su ATK cuando su arma es una Hacha.";
+demiHumans[17].unevility[3].requiere = "Battle Master Nv 500";
 
+/*MALE HEALER*/
+/*
+Move: 4
+Jump: 20
+Range: 1
+Throw: 4
+Counter: 0
+Critical: 5%
+*/
 demiHumans[18] = new Object();
 demiHumans[18].nombre = "Male_Healer";
 demiHumans[18].clases = new Array();
 demiHumans[18].clases[0] = new Object();
-demiHumans[18].clases[0].nombre = "";
-demiHumans[18].clases[0].requiere = '';
+demiHumans[18].clases[0].nombre = "Heretic";
+demiHumans[18].clases[0].requiere = 'Inicial';
 demiHumans[18].clases[1] = new Object();
-demiHumans[18].clases[1].nombre = "";
-demiHumans[18].clases[1].requiere = "";
+demiHumans[18].clases[1].nombre = "Zealot";
+demiHumans[18].clases[1].requiere = "Heretic Nv 15";
 demiHumans[18].clases[2] = new Object();
-demiHumans[18].clases[2].nombre = "";
-demiHumans[18].clases[2].requiere = "";
+demiHumans[18].clases[2].nombre = "Martyr";
+demiHumans[18].clases[2].requiere = "Zealot Nv 40";
 demiHumans[18].clases[3] = new Object();
-demiHumans[18].clases[3].nombre = "";
-demiHumans[18].clases[3].requiere = "";
+demiHumans[18].clases[3].nombre = "Pilgrim";
+demiHumans[18].clases[3].requiere = "Martyr Nv 80";
 demiHumans[18].clases[4] = new Object();
-demiHumans[18].clases[4].nombre = "";
-demiHumans[18].clases[4].requiere = "";
+demiHumans[18].clases[4].nombre = "Farvashi";
+demiHumans[18].clases[4].requiere = "Pilgrim Nv 160";
 demiHumans[18].clases[5] = new Object();
-demiHumans[18].clases[5].nombre = "";
-demiHumans[18].clases[5].requiere = "";
+demiHumans[18].clases[5].nombre = "Anti-Messiah";
+demiHumans[18].clases[5].requiere = "Farvashi Nv 360";
 demiHumans[18].skills = new Array();
 demiHumans[18].skills[0] = "Skill 1";
 demiHumans[18].skills[1] = "Skill 2";
@@ -1332,43 +1372,52 @@ demiHumans[18].evility[1] = "Evility 2";
 demiHumans[18].evility[2] = "Evility 3";
 demiHumans[18].unevility = new Array();
 demiHumans[18].unevility[0] = new Object();
-demiHumans[18].unevility[0].nombre = "";
-demiHumans[18].unevility[0].info = "";
+demiHumans[18].unevility[0].nombre = "Spirit's Blessing";
+demiHumans[18].unevility[0].info = "Reduce en un 50% el daño elemental que reciban las unidades aliadas adyacentes a este personaje.";
 demiHumans[18].unevility[0].requiere = "Inicial";
 demiHumans[18].unevility[1] = new Object();
-demiHumans[18].unevility[1].nombre = "";
-demiHumans[18].unevility[1].info = "";
-demiHumans[18].unevility[1].requiere = "";
+demiHumans[18].unevility[1].nombre = "Respect";
+demiHumans[18].unevility[1].info = "La distancia ganada aumenta en 2 cuando es parte de un comite (?).";
+demiHumans[18].unevility[1].requiere = "Zealot Nv 20";
 demiHumans[18].unevility[2] = new Object();
-demiHumans[18].unevility[2].nombre = "";
-demiHumans[18].unevility[2].info = "";
-demiHumans[18].unevility[2].requiere = "";
+demiHumans[18].unevility[2].nombre = "Dark Grace";
+demiHumans[18].unevility[2].info = "El efecto de su Skills tipo Maldicion aumenta en un 50%.";
+demiHumans[18].unevility[2].requiere = "Pilgrim Nv 100";
 demiHumans[18].unevility[3] = new Object();
-demiHumans[18].unevility[3].nombre = "";
-demiHumans[18].unevility[3].info = "";
-demiHumans[18].unevility[3].requiere = "";
+demiHumans[18].unevility[3].nombre = "Death's Heal";
+demiHumans[18].unevility[3].info = "Todos sus Atributos se redicen en un 50%, pero sus Skills tipo Heal hacen daño en vez de curar.";
+demiHumans[18].unevility[3].requiere = "Anti-Messiah Nv 500";
 
+/*MALE SAMURAI*/
+/*
+Move: 4
+Jump: 20
+Range: 1
+Throw: 4
+Counter: 2
+Critical: 5%
+*/
 demiHumans[19] = new Object();
 demiHumans[19].nombre = "Male_Samurai";
 demiHumans[19].clases = new Array();
 demiHumans[19].clases[0] = new Object();
-demiHumans[19].clases[0].nombre = "";
-demiHumans[19].clases[0].requiere = '';
+demiHumans[19].clases[0].nombre = "Ronin";
+demiHumans[19].clases[0].requiere = 'Male Fighter y Male Archer Nv 35, y aprobar "Make a Male Samurai"';
 demiHumans[19].clases[1] = new Object();
-demiHumans[19].clases[1].nombre = "";
-demiHumans[19].clases[1].requiere = "";
+demiHumans[19].clases[1].nombre = "Samurai";
+demiHumans[19].clases[1].requiere = "Ronin Nv 40";
 demiHumans[19].clases[2] = new Object();
-demiHumans[19].clases[2].nombre = "";
-demiHumans[19].clases[2].requiere = "";
+demiHumans[19].clases[2].nombre = "Bujin";
+demiHumans[19].clases[2].requiere = "Samurai Nv 90";
 demiHumans[19].clases[3] = new Object();
-demiHumans[19].clases[3].nombre = "";
-demiHumans[19].clases[3].requiere = "";
+demiHumans[19].clases[3].nombre = "Kengou";
+demiHumans[19].clases[3].requiere = "Bujin Nv 180";
 demiHumans[19].clases[4] = new Object();
-demiHumans[19].clases[4].nombre = "";
-demiHumans[19].clases[4].requiere = "";
+demiHumans[19].clases[4].nombre = "Kensei";
+demiHumans[19].clases[4].requiere = "Kengou Nv 360";
 demiHumans[19].clases[5] = new Object();
-demiHumans[19].clases[5].nombre = "";
-demiHumans[19].clases[5].requiere = "";
+demiHumans[19].clases[5].nombre = "Sword Master";
+demiHumans[19].clases[5].requiere = "Kensei Nv 720";
 demiHumans[19].skills = new Array();
 demiHumans[19].skills[0] = "Skill 1";
 demiHumans[19].skills[1] = "Skill 2";
@@ -1396,69 +1445,52 @@ demiHumans[19].evility[1] = "Evility 2";
 demiHumans[19].evility[2] = "Evility 3";
 demiHumans[19].unevility = new Array();
 demiHumans[19].unevility[0] = new Object();
-demiHumans[19].unevility[0].nombre = "";
-demiHumans[19].unevility[0].info = "";
+demiHumans[19].unevility[0].nombre = "Chivalry";
+demiHumans[19].unevility[0].info = "El daño de sus ataques aumenta en un 30% cuando ataca al enemigo frente a frente.";
 demiHumans[19].unevility[0].requiere = "Inicial";
 demiHumans[19].unevility[1] = new Object();
-demiHumans[19].unevility[1].nombre = "";
-demiHumans[19].unevility[1].info = "";
-demiHumans[19].unevility[1].requiere = "";
+demiHumans[19].unevility[1].nombre = "Armor Pierce";
+demiHumans[19].unevility[1].info = "25% de su ATK total se convierte en el daño fijo hecho por su Ataque Normal.";
+demiHumans[19].unevility[1].requiere = "Samurai Nv 30";
 demiHumans[19].unevility[2] = new Object();
-demiHumans[19].unevility[2].nombre = "";
-demiHumans[19].unevility[2].info = "";
-demiHumans[19].unevility[2].requiere = "";
+demiHumans[19].unevility[2].nombre = "Kamikaze";
+demiHumans[19].unevility[2].info = "El daño de sus Golpes Criticos aumentan en un 100% cuando su HP esta bajo el 25%.";
+demiHumans[19].unevility[2].requiere = "Kengou Nv 150";
 demiHumans[19].unevility[3] = new Object();
-demiHumans[19].unevility[3].nombre = "";
-demiHumans[19].unevility[3].info = "";
-demiHumans[19].unevility[3].requiere = "";
+demiHumans[19].unevility[3].nombre = "Divine Killer";
+demiHumans[19].unevility[3].info = "El daño hecho a los enemigos tipo Humano aumenta en un 25%.";
+demiHumans[19].unevility[3].requiere = "Sword Master Nv 800";
+
+/*MASKED HERO*/
 /*
-To unlock, the player must pass the "Make a Masked Hero" bill in the Classroom Assembly which requires a Level 45 Gunner/Gunslinger and a Level 45 Thief
-
-Masked Hero	 Pass the "Make a Masked Hero" bill
-D3 Masked Hero 02
-Vizard Hero	 Level 50 Masked Hero
-D3 Masked Hero 03
-Morphing Hero	 Level 110 Vizard Hero
-D3 Masked Hero 04
-Fixed-Up Hero	 Level 220 Morphing Hero
-D3 Masked Hero 05
-Galaxy Hero	 Level 440 Fixed-Up Hero
-D3 Masked Hero 06
-Super Dimensionman	 Level 880 Galaxy Hero
-
 Move: 6
 Jump: 35
 Range: 1
 Throw: 3
 Counter: 2
 Critical: 5%
-
-Trick Move	 Evasion bonus increased by moved panels x10%. (within turn)	 Initial
-Power Survival	 If enemy level is lower, damage dealt increased by 50%.	 Tier 2 Lv30
-Superiority	 If enemy level is lower, damage received decreased by 50%.	 Tier 4 Lv150
-Chicken Heart	 MV increased by 3, stats decreased by 30%.	 Tier 6 Lv800
 */
 demiHumans[20] = new Object();
 demiHumans[20].nombre = "Masked_Hero";
 demiHumans[20].clases = new Array();
 demiHumans[20].clases[0] = new Object();
-demiHumans[20].clases[0].nombre = "";
-demiHumans[20].clases[0].requiere = '';
+demiHumans[20].clases[0].nombre = "Masked Hero";
+demiHumans[20].clases[0].requiere = 'Thief y Gunner o Gunslinger Nv 45, y aprobar "Make a Masked Hero"';
 demiHumans[20].clases[1] = new Object();
-demiHumans[20].clases[1].nombre = "";
-demiHumans[20].clases[1].requiere = "";
+demiHumans[20].clases[1].nombre = "Vizard Hero";
+demiHumans[20].clases[1].requiere = "Masked Hero Nv 50";
 demiHumans[20].clases[2] = new Object();
-demiHumans[20].clases[2].nombre = "";
-demiHumans[20].clases[2].requiere = "";
+demiHumans[20].clases[2].nombre = "Morphing Hero";
+demiHumans[20].clases[2].requiere = "Vizard Hero Nv 110";
 demiHumans[20].clases[3] = new Object();
-demiHumans[20].clases[3].nombre = "";
-demiHumans[20].clases[3].requiere = "";
+demiHumans[20].clases[3].nombre = "Fixed-Up Hero";
+demiHumans[20].clases[3].requiere = "Morphing Hero Nv 220";
 demiHumans[20].clases[4] = new Object();
-demiHumans[20].clases[4].nombre = "";
-demiHumans[20].clases[4].requiere = "";
+demiHumans[20].clases[4].nombre = "Galaxy Hero";
+demiHumans[20].clases[4].requiere = "Fixed-Up Hero Nv 440";
 demiHumans[20].clases[5] = new Object();
-demiHumans[20].clases[5].nombre = "";
-demiHumans[20].clases[5].requiere = "";
+demiHumans[20].clases[5].nombre = "Super Dimensionman";
+demiHumans[20].clases[5].requiere = "Galaxy Hero Nv 880";
 demiHumans[20].skills = new Array();
 demiHumans[20].skills[0] = "Skill 1";
 demiHumans[20].skills[1] = "Skill 2";
@@ -1486,23 +1518,23 @@ demiHumans[20].evility[1] = "Evility 2";
 demiHumans[20].evility[2] = "Evility 3";
 demiHumans[20].unevility = new Array();
 demiHumans[20].unevility[0] = new Object();
-demiHumans[20].unevility[0].nombre = "";
-demiHumans[20].unevility[0].info = "";
+demiHumans[20].unevility[0].nombre = "Trick Move";
+demiHumans[20].unevility[0].info = "Su Evasión aumenta en 10% hasta su proximo turno por cada panel que se mueva.";
 demiHumans[20].unevility[0].requiere = "Inicial";
 demiHumans[20].unevility[1] = new Object();
-demiHumans[20].unevility[1].nombre = "";
-demiHumans[20].unevility[1].info = "";
-demiHumans[20].unevility[1].requiere = "";
+demiHumans[20].unevility[1].nombre = "Power Survival";
+demiHumans[20].unevility[1].info = "Si el Nv del enemigo es menor al de este personaje, aumenta el daño de sus ataques en un 50%.";
+demiHumans[20].unevility[1].requiere = "Vizard Hero Nv 30";
 demiHumans[20].unevility[2] = new Object();
-demiHumans[20].unevility[2].nombre = "";
-demiHumans[20].unevility[2].info = "";
-demiHumans[20].unevility[2].requiere = "";
+demiHumans[20].unevility[2].nombre = "Superiority";
+demiHumans[20].unevility[2].info = "Si un enemigo de menor Nv que este personaje lo ataca, el daño recibido se reduce en un 50%.";
+demiHumans[20].unevility[2].requiere = "Fixed-Up Hero Nv 150";
 demiHumans[20].unevility[3] = new Object();
-demiHumans[20].unevility[3].nombre = "";
-demiHumans[20].unevility[3].info = "";
-demiHumans[20].unevility[3].requiere = "";
+demiHumans[20].unevility[3].nombre = "Chicken Heart";
+demiHumans[20].unevility[3].info = "Reduce todos sus atributos en un 30%, pero aumenta sus Movimientos en 3.";
+demiHumans[20].unevility[3].requiere = "Super Dimensionman Nv 800";
 
-/*
+/*MALE NINJA
 To unlock, the player must pass the "Make a Male Ninja " bill in the Classroom Assembly which requires a Level 30 Male Brawler and a Level 30 Skull
 
 Genin	 Pass the "Make a Male Ninja " bill
@@ -1585,54 +1617,37 @@ demiHumans[21].unevility[3] = new Object();
 demiHumans[21].unevility[3].nombre = "";
 demiHumans[21].unevility[3].info = "";
 demiHumans[21].unevility[3].requiere = "";
+
+/*MALE ARCHER*/
 /*
-To unlock, the player must pass the "Make a Male Archer" bill in the Classroom Assembly which requires a Level 15 Male Fighter and a Level 15 Male Healer
-
-Ranger	 Pass the "Make a Male Archer" bill
-D3 Ranger 02
-Chaser	 Level 20 Ranger
-D3 Ranger 03
-Strider	 Level 50 Chaser
-D3 Ranger 04
-Hawkeye	 Level 100 Strider
-D3 Ranger 05
-Enforcer	 Level 200 Hawkeye
-D3 Ranger 06
-Sagittarius	 Level 400 Enforcer
-
 Move: 5
 Jump: 25
 Range: 1
 Throw: 4
 Counter: 1
 Critical: 5%
-
-Positional Energy	 Attack power increased by 30% to targets at lower height.	 Initial
-Hunter's Range	 HIT increased by 30% only if distance is kept from enemy.	 Tier 2 Lv25
-Girl Hunt	 Damage dealt increased by 20% if enemy is female.	 Tier 4 Lv120
-Bow Focus	 30% of base HIT added to ATK when bow is equipped.	 Tier 6 Lv600'
 */
 demiHumans[22] = new Object();
 demiHumans[22].nombre = "Ranger";
 demiHumans[22].clases = new Array();
 demiHumans[22].clases[0] = new Object();
-demiHumans[22].clases[0].nombre = "";
-demiHumans[22].clases[0].requiere = '';
+demiHumans[22].clases[0].nombre = "Ranger";
+demiHumans[22].clases[0].requiere = 'Male Fighter y Male Healer en Nv 15, y aprobar "Make a Male Archer".';
 demiHumans[22].clases[1] = new Object();
-demiHumans[22].clases[1].nombre = "";
-demiHumans[22].clases[1].requiere = "";
+demiHumans[22].clases[1].nombre = "Chaser";
+demiHumans[22].clases[1].requiere = "Ranger Nv 20";
 demiHumans[22].clases[2] = new Object();
-demiHumans[22].clases[2].nombre = "";
-demiHumans[22].clases[2].requiere = "";
+demiHumans[22].clases[2].nombre = "Strider";
+demiHumans[22].clases[2].requiere = "Chaser Nv 50";
 demiHumans[22].clases[3] = new Object();
-demiHumans[22].clases[3].nombre = "";
-demiHumans[22].clases[3].requiere = "";
+demiHumans[22].clases[3].nombre = "Hawkeye";
+demiHumans[22].clases[3].requiere = "Strider Nv 100";
 demiHumans[22].clases[4] = new Object();
-demiHumans[22].clases[4].nombre = "";
-demiHumans[22].clases[4].requiere = "";
+demiHumans[22].clases[4].nombre = "Enforcer";
+demiHumans[22].clases[4].requiere = "Hawkeye Nv 200";
 demiHumans[22].clases[5] = new Object();
-demiHumans[22].clases[5].nombre = "";
-demiHumans[22].clases[5].requiere = "";
+demiHumans[22].clases[5].nombre = "Sagittarius";
+demiHumans[22].clases[5].requiere = "Enforcer Nv 400";
 demiHumans[22].skills = new Array();
 demiHumans[22].skills[0] = "Skill 1";
 demiHumans[22].skills[1] = "Skill 2";
@@ -1660,69 +1675,52 @@ demiHumans[22].evility[1] = "Evility 2";
 demiHumans[22].evility[2] = "Evility 3";
 demiHumans[22].unevility = new Array();
 demiHumans[22].unevility[0] = new Object();
-demiHumans[22].unevility[0].nombre = "";
-demiHumans[22].unevility[0].info = "";
+demiHumans[22].unevility[0].nombre = "Positional Energy";
+demiHumans[22].unevility[0].info = "El daño de sus ataques aumenta en un 30% cuando el objetivo esta en una menor altura.";
 demiHumans[22].unevility[0].requiere = "Inicial";
 demiHumans[22].unevility[1] = new Object();
-demiHumans[22].unevility[1].nombre = "";
-demiHumans[22].unevility[1].info = "";
-demiHumans[22].unevility[1].requiere = "";
+demiHumans[22].unevility[1].nombre = "Hunter's Range";
+demiHumans[22].unevility[1].info = "Su HIT aumenta un 30% si no hay enemigos adyacentes a este personaje.";
+demiHumans[22].unevility[1].requiere = "Chaser Nv 25";
 demiHumans[22].unevility[2] = new Object();
-demiHumans[22].unevility[2].nombre = "";
-demiHumans[22].unevility[2].info = "";
-demiHumans[22].unevility[2].requiere = "";
+demiHumans[22].unevility[2].nombre = "Girl Hunt";
+demiHumans[22].unevility[2].info = "Aumenta en un 20% el daño hecho a enemigos Hembra.";
+demiHumans[22].unevility[2].requiere = "Hawkeye Nv 120";
 demiHumans[22].unevility[3] = new Object();
-demiHumans[22].unevility[3].nombre = "";
-demiHumans[22].unevility[3].info = "";
-demiHumans[22].unevility[3].requiere = "";
-/*
-To unlock, the player must pass the "Make a Sorceror" bill in the Classroom Assembly which requires a Level 25 Geomancer and a Level 25 Skull/Mage
+demiHumans[22].unevility[3].nombre = "Bow Focus";
+demiHumans[22].unevility[3].info = "30% de su HIT base es añadido a su ATK cuando su arma es un Arco.";
+demiHumans[22].unevility[3].requiere = "Sagittarius Nv 600";
 
+/*SHAMAN*/
+/*
 Move: 4
 Jump: 20
 Range: 1
 Throw: 4
 Counter: 1
 Critical: 5%
-
-Shaman	 Pass the "Make a Sorceror" bill
-D3 Shaman 02
-Witch Doctor	 Level 30 Shaman
-D3 Shaman 03
-Necromancer	 Level 70 Witch Doctor
-D3 Shaman 04
-Dark Elder	 Level 140 Necromancer
-D3 Shaman 05
-Purgatory Oracle	 Level 280 Dark Elder
-D3 Shaman 06
-Soul Invoker	 Level 560 Purgatory Oracle
-
-Cursed Dance	 Stats of enemies on map decreased by 5%.	 Initial
-Hazard Dance	 Ailment chance of enemies on map increased by 20%.	 Tier 2 Lv30
-Ominous Dance	 Evasion of enemies on map decreased by 20%.	 Tier 4 Lv150
-Ruin Dance	 Element stats of enemies on map decreased by 25%.	 Tier 6 Lv800
 */
 demiHumans[23] = new Object();
 demiHumans[23].nombre = "Shaman";
 demiHumans[23].clases = new Array();
 demiHumans[23].clases[0] = new Object();
-demiHumans[23].clases[0].nombre = "";
-demiHumans[23].clases[0].requiere = '';
+demiHumans[23].clases[0].nombre = "Shaman";
+demiHumans[23].clases[0].requiere = 'Geomancer y Skull o Mage en Nv 25, y aprobar "Make a Sorceror"';
 demiHumans[23].clases[1] = new Object();
-demiHumans[23].clases[1].nombre = "";
-demiHumans[23].clases[1].requiere = "";
+demiHumans[23].clases[1].nombre = "Witch Doctor";
+demiHumans[23].clases[1].requiere = "Shaman Nv 30";
 demiHumans[23].clases[2] = new Object();
-demiHumans[23].clases[2].nombre = "";
-demiHumans[23].clases[2].requiere = "";
+demiHumans[23].clases[2].nombre = "Necromancer";
+demiHumans[23].clases[2].requiere = "Witch Doctor Nv 70";
 demiHumans[23].clases[3] = new Object();
-demiHumans[23].clases[3].nombre = "";
-demiHumans[23].clases[3].requiere = "";
+demiHumans[23].clases[3].nombre = "Dark Elder";
+demiHumans[23].clases[3].requiere = "Necromancer Nv 140";
 demiHumans[23].clases[4] = new Object();
-demiHumans[23].clases[4].nombre = "";
-demiHumans[23].clases[4].requiere = "";
+demiHumans[23].clases[4].nombre = "Purgatory Oracle";
+demiHumans[23].clases[4].requiere = "Dark Elder Nv 280";
 demiHumans[23].clases[5] = new Object();
-demiHumans[23].clases[5].nombre = "";
-demiHumans[23].clases[5].requiere = "";
+demiHumans[23].clases[5].nombre = "Soul Invoker";
+demiHumans[23].clases[5].requiere = "Purgatory Oracle Nv 560";
 demiHumans[23].skills = new Array();
 demiHumans[23].skills[0] = "Skill 1";
 demiHumans[23].skills[1] = "Skill 2";
@@ -1750,47 +1748,69 @@ demiHumans[23].evility[1] = "Evility 2";
 demiHumans[23].evility[2] = "Evility 3";
 demiHumans[23].unevility = new Array();
 demiHumans[23].unevility[0] = new Object();
-demiHumans[23].unevility[0].nombre = "";
-demiHumans[23].unevility[0].info = "";
+demiHumans[23].unevility[0].nombre = "Cursed Dance";
+demiHumans[23].unevility[0].info = "Reduce todos los Atributos de los enemigos en el mapa en un 5%.";
 demiHumans[23].unevility[0].requiere = "Inicial";
 demiHumans[23].unevility[1] = new Object();
-demiHumans[23].unevility[1].nombre = "";
-demiHumans[23].unevility[1].info = "";
-demiHumans[23].unevility[1].requiere = "";
+demiHumans[23].unevility[1].nombre = "Hazard Dance";
+demiHumans[23].unevility[1].info = "Las posibilidades de Estados Alterados para los enemigos en el mapa aumenta en un 20%.";
+demiHumans[23].unevility[1].requiere = "Witch Doctor Nv 30";
 demiHumans[23].unevility[2] = new Object();
-demiHumans[23].unevility[2].nombre = "";
-demiHumans[23].unevility[2].info = "";
-demiHumans[23].unevility[2].requiere = "";
+demiHumans[23].unevility[2].nombre = "Ominous Dance";
+demiHumans[23].unevility[2].info = "La Evasión para los enemigos en el mapa se reduce en un 20%.";
+demiHumans[23].unevility[2].requiere = "Dark Elder Nv 150";
 demiHumans[23].unevility[3] = new Object();
-demiHumans[23].unevility[3].nombre = "";
-demiHumans[23].unevility[3].info = "";
-demiHumans[23].unevility[3].requiere = "";
+demiHumans[23].unevility[3].nombre = "Ruin Dance";
+demiHumans[23].unevility[3].info = "Las Resistencias Elementales de los enemigos en el mapa se reduce en un 25%.";
+demiHumans[23].unevility[3].requiere = "Soul Invoker Nv 800";
 
+/*SKULL*/
+/*
+Move: 3
+Jump: 15
+Range: 1
+Throw: 3
+Counter: 0
+Critical: 5%
+*/
 demiHumans[24] = new Object();
 demiHumans[24].nombre = "Skull";
 demiHumans[24].clases = new Array();
 demiHumans[24].clases[0] = new Object();
-demiHumans[24].clases[0].nombre = "";
-demiHumans[24].clases[0].requiere = '';
+demiHumans[24].clases[0].nombre = "Red Skull";
+demiHumans[24].clases[0].requiere = 'Inicial';
 demiHumans[24].clases[1] = new Object();
-demiHumans[24].clases[1].nombre = "";
-demiHumans[24].clases[1].requiere = "";
+demiHumans[24].clases[1].nombre = "Green Skull";
+demiHumans[24].clases[1].requiere = "Inicial";
 demiHumans[24].clases[2] = new Object();
-demiHumans[24].clases[2].nombre = "";
-demiHumans[24].clases[2].requiere = "";
+demiHumans[24].clases[2].nombre = "Blue Skull";
+demiHumans[24].clases[2].requiere = "Inicial";
 demiHumans[24].clases[3] = new Object();
-demiHumans[24].clases[3].nombre = "";
-demiHumans[24].clases[3].requiere = "";
+demiHumans[24].clases[3].nombre = "Star Skull";
+demiHumans[24].clases[3].requiere = "Red, Green o Blue Skull Nv 50";
 demiHumans[24].clases[4] = new Object();
-demiHumans[24].clases[4].nombre = "";
-demiHumans[24].clases[4].requiere = "";
+demiHumans[24].clases[4].nombre = "Prism Skull";
+demiHumans[24].clases[4].requiere = "Star Skull Nv 150";
 demiHumans[24].clases[5] = new Object();
-demiHumans[24].clases[5].nombre = "";
-demiHumans[24].clases[5].requiere = "";
+demiHumans[24].clases[5].nombre = "Galaxy Skull";
+demiHumans[24].clases[5].requiere = "Prism Skull Nv 450";
 demiHumans[24].skills = new Array();
-demiHumans[24].skills[0] = "Skill 1";
-demiHumans[24].skills[1] = "Skill 2";
-demiHumans[24].skills[2] = "Skill 3";
+demiHumans[24].skills[0] = "Fire";
+demiHumans[24].skills[1] = "Mega Fire";
+demiHumans[24].skills[2] = "Giga Fire";
+demiHumans[24].skills[3] = "Omega Fire";
+demiHumans[24].skills[4] = "Ice";
+demiHumans[24].skills[5] = "Mega Ice";
+demiHumans[24].skills[6] = "Giga Ice";
+demiHumans[24].skills[7] = "Omega Ice";
+demiHumans[24].skills[8] = "Wind";
+demiHumans[24].skills[9] = "Mega Wind";
+demiHumans[24].skills[10] = "Giga Wind";
+demiHumans[24].skills[11] = "Omega Wind";
+demiHumans[24].skills[12] = "Star";
+demiHumans[24].skills[13] = "Mega Star";
+demiHumans[24].skills[14] = "Giga Star";
+demiHumans[24].skills[15] = "Omega Star";
 demiHumans[24].unskills = new Array();
 demiHumans[24].unskills[0] = new Object();
 demiHumans[24].unskills[0].nombre = "";
@@ -1814,21 +1834,18 @@ demiHumans[24].evility[1] = "Evility 2";
 demiHumans[24].evility[2] = "Evility 3";
 demiHumans[24].unevility = new Array();
 demiHumans[24].unevility[0] = new Object();
-demiHumans[24].unevility[0].nombre = "";
-demiHumans[24].unevility[0].info = "";
+demiHumans[24].unevility[0].nombre = "Magic Bundle";
+demiHumans[24].unevility[0].info = "El daño de sus Skills aumenta en un 30%, pero estas consumen 50% mas de SP.";
 demiHumans[24].unevility[0].requiere = "Inicial";
 demiHumans[24].unevility[1] = new Object();
-demiHumans[24].unevility[1].nombre = "";
-demiHumans[24].unevility[1].info = "";
-demiHumans[24].unevility[1].requiere = "";
+demiHumans[24].unevility[1].nombre = "Illusion";
+demiHumans[24].unevility[1].info = "30% de su INT base se añade a su SPD cuando su arma es un Baston.";
+demiHumans[24].unevility[1].requiere = "Star Skull Nv 50";
 demiHumans[24].unevility[2] = new Object();
-demiHumans[24].unevility[2].nombre = "";
-demiHumans[24].unevility[2].info = "";
-demiHumans[24].unevility[2].requiere = "";
-demiHumans[24].unevility[3] = new Object();
-demiHumans[24].unevility[3].nombre = "";
-demiHumans[24].unevility[3].info = "";
-demiHumans[24].unevility[3].requiere = "";
+demiHumans[24].unevility[2].nombre = "Magic Conversion";
+demiHumans[24].unevility[2].info = "10% de su SP restante es añadida a su INT.";
+demiHumans[24].unevility[2].requiere = "Galaxy Skull Nv 500";
+
 
 
 demiHumans[25] = new Object();
