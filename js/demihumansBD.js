@@ -1837,29 +1837,34 @@ demiHumans[24].unevility[2].requiere = "Galaxy Skull Nv 500";
 
 /*THIEF*/
 /*
-
+Move: 6
+Jump: 25
+Range: 1
+Throw: 4
+Counter: 1
+Critical: 5%
 */
 demiHumans[25] = new Object();
 demiHumans[25].nombre = "Thief";
 demiHumans[25].clases = new Array();
 demiHumans[25].clases[0] = new Object();
-demiHumans[25].clases[0].nombre = "";
-demiHumans[25].clases[0].requiere = '';
+demiHumans[25].clases[0].nombre = "Thief";
+demiHumans[25].clases[0].requiere = 'Inicial';
 demiHumans[25].clases[1] = new Object();
-demiHumans[25].clases[1].nombre = "";
-demiHumans[25].clases[1].requiere = "";
+demiHumans[25].clases[1].nombre = "Rogue";
+demiHumans[25].clases[1].requiere = "Thief Nv 15";
 demiHumans[25].clases[2] = new Object();
-demiHumans[25].clases[2].nombre = "";
-demiHumans[25].clases[2].requiere = "";
+demiHumans[25].clases[2].nombre = "Scout";
+demiHumans[25].clases[2].requiere = "Rogue Nv 40";
 demiHumans[25].clases[3] = new Object();
-demiHumans[25].clases[3].nombre = "";
-demiHumans[25].clases[3].requiere = "";
+demiHumans[25].clases[3].nombre = "Bandit";
+demiHumans[25].clases[3].requiere = "Scout Nv 80";
 demiHumans[25].clases[4] = new Object();
-demiHumans[25].clases[4].nombre = "";
-demiHumans[25].clases[4].requiere = "";
+demiHumans[25].clases[4].nombre = "Trickster";
+demiHumans[25].clases[4].requiere = "Bandit Nv 160";
 demiHumans[25].clases[5] = new Object();
-demiHumans[25].clases[5].nombre = "";
-demiHumans[25].clases[5].requiere = "";
+demiHumans[25].clases[5].nombre = "Master Thief";
+demiHumans[25].clases[5].requiere = "Trickster Nv 360";
 demiHumans[25].skills = new Array();
 demiHumans[25].skills[0] = "Skill 1";
 demiHumans[25].skills[1] = "Skill 2";
@@ -1887,44 +1892,46 @@ demiHumans[25].evility[1] = "Evility 2";
 demiHumans[25].evility[2] = "Evility 3";
 demiHumans[25].unevility = new Array();
 demiHumans[25].unevility[0] = new Object();
-demiHumans[25].unevility[0].nombre = "";
-demiHumans[25].unevility[0].info = "";
+demiHumans[25].unevility[0].nombre = "Thief Skills";
+demiHumans[25].unevility[0].info = "Aumenta las posibilidades de robar objetos en un 100%.";
 demiHumans[25].unevility[0].requiere = "Inicial";
 demiHumans[25].unevility[1] = new Object();
-demiHumans[25].unevility[1].nombre = "";
-demiHumans[25].unevility[1].info = "";
-demiHumans[25].unevility[1].requiere = "";
+demiHumans[25].unevility[1].nombre = "Evade Danger";
+demiHumans[25].unevility[1].info = "Anula el daño recibido por bombas.";
+demiHumans[25].unevility[1].requiere = "Rogue Nv 20";
 demiHumans[25].unevility[2] = new Object();
-demiHumans[25].unevility[2].nombre = "";
-demiHumans[25].unevility[2].info = "";
-demiHumans[25].unevility[2].requiere = "";
+demiHumans[25].unevility[2].nombre = "Heart Steal";
+demiHumans[25].unevility[2].info = "Permite robar Atributos de los enemigos, ademas de objetos.";
+demiHumans[25].unevility[2].requiere = "Bandit Nv 100";
 demiHumans[25].unevility[3] = new Object();
-demiHumans[25].unevility[3].nombre = "";
-demiHumans[25].unevility[3].info = "";
-demiHumans[25].unevility[3].requiere = "";
+demiHumans[25].unevility[3].nombre = "Lucky Finger";
+demiHumans[25].unevility[3].info = "Cuando destruye un cofre, aumenta en 1 categoria el premio recibido.";
+demiHumans[25].unevility[3].requiere = "Master Thief Nv 500";
 
-
+/*CELESTIAL HOST*/
+/*
+*/
 demiHumans[26] = new Object();
 demiHumans[26].nombre = "Celestial_Host";
 demiHumans[26].clases = new Array();
 demiHumans[26].clases[0] = new Object();
-demiHumans[26].clases[0].nombre = "";
-demiHumans[26].clases[0].requiere = '';
+demiHumans[26].clases[0].nombre = "Angel";
+demiHumans[26].clases[0].requiere = 'Derrotar el ataque del Item World Command';
 demiHumans[26].clases[1] = new Object();
-demiHumans[26].clases[1].nombre = "";
-demiHumans[26].clases[1].requiere = "";
+demiHumans[26].clases[1].nombre = "Angel Cadet";
+demiHumans[26].clases[1].requiere = "Angel Nv 30";
 demiHumans[26].clases[2] = new Object();
-demiHumans[26].clases[2].nombre = "";
-demiHumans[26].clases[2].requiere = "";
+demiHumans[26].clases[2].nombre = "Angel Soldier";
+demiHumans[26].clases[2].requiere = "Angel Cadet Nv 70";
 demiHumans[26].clases[3] = new Object();
-demiHumans[26].clases[3].nombre = "";
-demiHumans[26].clases[3].requiere = "";
+demiHumans[26].clases[3].nombre = "Crusader";
+demiHumans[26].clases[3].requiere = "Angel Soldier Nv 140";
 demiHumans[26].clases[4] = new Object();
-demiHumans[26].clases[4].nombre = "";
-demiHumans[26].clases[4].requiere = "";
+demiHumans[26].clases[4].nombre = "Avenger";
+demiHumans[26].clases[4].requiere = "Crusader Nv 280";
 demiHumans[26].clases[5] = new Object();
-demiHumans[26].clases[5].nombre = "";
-demiHumans[26].clases[5].requiere = "";
+demiHumans[26].clases[5].nombre = "Paladin";
+demiHumans[26].clases[5].requiere = "Avenger Nv 560";
 demiHumans[26].skills = new Array();
 demiHumans[26].skills[0] = "Skill 1";
 demiHumans[26].skills[1] = "Skill 2";
@@ -1952,18 +1959,18 @@ demiHumans[26].evility[1] = "Evility 2";
 demiHumans[26].evility[2] = "Evility 3";
 demiHumans[26].unevility = new Array();
 demiHumans[26].unevility[0] = new Object();
-demiHumans[26].unevility[0].nombre = "";
-demiHumans[26].unevility[0].info = "";
+demiHumans[26].unevility[0].nombre = "Angel's Protection";
+demiHumans[26].unevility[0].info = "Reduce el daño Neutral que reciban los aliados adyacentes en un 50%.";
 demiHumans[26].unevility[0].requiere = "Inicial";
 demiHumans[26].unevility[1] = new Object();
-demiHumans[26].unevility[1].nombre = "";
-demiHumans[26].unevility[1].info = "";
-demiHumans[26].unevility[1].requiere = "";
+demiHumans[26].unevility[1].nombre = "Angel's Medication";
+demiHumans[26].unevility[1].info = "Al recibir un objeto consumible, este da el mismo efecto a todos los aliados adyacentes.";
+demiHumans[26].unevility[1].requiere = "Angel Cadet Nv 30";
 demiHumans[26].unevility[2] = new Object();
-demiHumans[26].unevility[2].nombre = "";
-demiHumans[26].unevility[2].info = "";
-demiHumans[26].unevility[2].requiere = "";
+demiHumans[26].unevility[2].nombre = "Angel's Blessing";
+demiHumans[26].unevility[2].info = "Sus Skills tipo Heal adicionalmente curan todos los Estados Alterados de quienes sean objetivos de esas Skills.";
+demiHumans[26].unevility[2].requiere = "Crusader Nv 150";
 demiHumans[26].unevility[3] = new Object();
-demiHumans[26].unevility[3].nombre = "";
-demiHumans[26].unevility[3].info = "";
-demiHumans[26].unevility[3].requiere = "";
+demiHumans[26].unevility[3].nombre = "Angel's Flight";
+demiHumans[26].unevility[3].info = "Aumenta el efecto de sus Skills tipo Heal en un 10% por cada panel que se mueva durante su turno.";
+demiHumans[26].unevility[3].requiere = "Paladin Nv 800";
